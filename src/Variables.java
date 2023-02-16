@@ -13,11 +13,9 @@ public class Variables {
 
         // 4.
         int dollars = (int)balance;
-        System.out.print(dollars);
 
         // 5.
-        int dollarsRounded;
-        System.out.println(Math.round(balance));
+        int dollarsRounded = (int)Math.round(balance);
 
         // 6.
         char letter = 'A';
